@@ -9,7 +9,7 @@ h1{
 .orange-color{
     color: orange;
 }
-section{
+.flexible-container{
     display: flex;
     margin-bottom: 150px;
 }
@@ -32,5 +32,29 @@ section{
 .top-banner{
     background-image: url(images/top-banner.png);
     background: no-repeat;
+    
+}
+.ex-items{
+    width: 30%;
+    margin-left: 5%;
+    margin-right: 5%;
+    box-shadow: 10px 10px 50px rgb(235, 82, 71) ;
+    border-left: 7px solid;
+    border-image: linear gradient(blue,cyan);
+    border-image-slice: 1;}
+
+
+footer p{
+    text-align: center;
+}
+
+   
+  
+    
+
+
+
+h2{
+    font-size: 30px;
     
 }
